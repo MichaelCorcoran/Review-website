@@ -1,4 +1,4 @@
-body {
+body {background-color:#CFB53B;	
   margin: 44px;
 }
 
@@ -19,7 +19,7 @@ body {
 	}
 
 
-	.wrapper {
+	.wrapper {background-color:#CFB53B;
 		display: grid;
     grid-gap: 20px;
 		grid-template-columns: 400px 600px 700px;
@@ -27,7 +27,7 @@ body {
     "....... header header"
 		"sidebar content content"
 		"footer  footer  footer";
-		background-color: #fff;
+
 		color: #999;
 	}
 
