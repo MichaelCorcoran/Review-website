@@ -35,8 +35,8 @@ body {
 .box {
   background-color: #444;
   color: #fff;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 33%;
+  padding: 33%;
   font-size: 150%;
 }
 
