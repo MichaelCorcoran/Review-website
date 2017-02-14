@@ -1,42 +1,42 @@
 body {
-  margin: 33%;
+  margin: 44px;
 }
 
 .sidebar {
-        grid-area: sidebar;
-    }
+		grid-area: sidebar;
+	}
 
-    .content {
-        grid-area: content;
-    }
+	.content {
+		grid-area: content;
+	}
 
-    .header {
-        grid-area: header;
-    }
+	.header {
+		grid-area: header;
+	}
 
-    .footer {
-        grid-area: footer;
-    }
+	.footer {
+		grid-area: footer;
+	}
 
 
-    .wrapper {
-        display: grid;
-    grid-gap: 33%;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-areas:
+	.wrapper {
+		display: grid;
+    grid-gap: 20px;
+		grid-template-columns: 400px 600px 700px;
+		grid-template-areas:
     "....... header header"
-        "sidebar content content"
-        "footer  footer  footer";
-        background-color: #fff;
-        color: #444;
-    }
+		"sidebar content content"
+		"footer  footer  footer";
+		background-color: #fff;
+		color: #444;
+	}
 
 
 .box {
   background-color: #444;
   color: #fff;
-  border-radius: 33%;
-  padding: 33%;
+  border-radius: 5px;
+  padding: 70px;
   font-size: 150%;
 }
 
