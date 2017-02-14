@@ -28,19 +28,19 @@ body {
 		"sidebar content content"
 		"footer  footer  footer";
 		background-color: #fff;
-		color: #444;
+		color: #999;
 	}
 
 
 .box {
-  background-color: #444;
+  background-color: #459;
   color: #fff;
   border-radius: 5px;
-  padding: 70px;
+  padding: 120px;
   font-size: 150%;
 }
 
 .header,
 .footer {
-  background-color: #999;
+  background-color: #459;
 }
