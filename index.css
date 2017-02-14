@@ -1,5 +1,5 @@
 body {
-  margin: 40px;
+  margin: 33%;
 }
 
 .sidebar {
@@ -21,8 +21,8 @@ body {
 
     .wrapper {
         display: grid;
-    grid-gap: 10px;
-        grid-template-columns: 120px 120px 120px;
+    grid-gap: 33%;
+        grid-template-columns: 33% 33% 33%;
         grid-template-areas:
     "....... header header"
         "sidebar content content"
