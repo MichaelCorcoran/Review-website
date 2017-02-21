@@ -1,1 +1,46 @@
+body {background-color:#CFB53B;	
+  margin: 44px;
+}
 
+.sidebar {
+		grid-area: sidebar;
+	}
+
+	.content {
+		grid-area: content;
+	}
+
+	.header {
+		grid-area: header;
+	}
+
+	.footer {
+		grid-area: footer;
+	}
+
+
+	.wrapper {background-color:#CFB53B;
+		display: grid;
+    grid-gap: 20px;
+		grid-template-columns: 400px 600px 700px;
+		grid-template-areas:
+    "....... header header"
+		"sidebar content content"
+		"footer  footer  footer";
+
+		color: #999;
+	}
+
+
+.box {
+  background-color: #459;
+  color: #fff;
+  border-radius: 5px;
+  padding: 90px;
+  font-size: 300%;
+}
+
+.header,
+.footer {
+  background-color: #459;
+}
